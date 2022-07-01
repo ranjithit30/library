@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Book Return</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+  <style>
+  .btn, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    appearance: none;
+    background-color: #1a73e8;
+border: none;
+border-radius: 3px;
+color:
+    white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    line-height: 1;
+    padding: .75em 1em;
+    text-decoration: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    outline: none;
+    -webkit-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    -moz-transition: all .1s cubic-bezier(.165,.84,.44,1);
+    transition: all .1s cubic-bezier(.165,.84,.44,1);
+    }
+input[type="text"]
+{
+    font-size:18px;
+    border: 0px;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+div{
+    text-align:center;
+    background-color:white;
+    width: 50%;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+body {
+  background: #EEF2F7;
+  align-items: center;
+}
+
+ </style>
+</head>
+<body>
+  <h1 style="font-family:Montserrat;margin-left: 600px;">Return Book</h1>
+<div style="margin-left: 350px;margin-top: 100px;padding-bottom: 50px;padding-top: 50px;">
+  <form class="form-inline" method="post" action="search.php">
+    <input type="text" placeholder="Name" name="name" id='name'>
+    <br>
+    <br>
+    <button class="button" type="submit" name="save">Search</button>
+  </form>
+</div>
+</body>
+</html>
